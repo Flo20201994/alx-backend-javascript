@@ -1,5 +1,6 @@
 0x00. ES6 Basics
-JavaScript
+JavaScript: https://github.com/mbeaudru/modern-js-cheatsheet, https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Adding_interactivity,https://darrenderidder.github.io/talks/ModulePatterns/#/, https://www.youtube.com/watch?v=sjyJBL5fkp8, https://www.youtube.com/watch?v=vZBCTc9zHtI, https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Object_basics, https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Classes_in_JavaScript, https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Object_prototypes, https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Advanced_JavaScript_objects/Classes_in_JavaScript, https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures, https://alistapart.com/article/getoutbindingsituations/
+
 ES6
  Weight: 1
  Ongoing second chance project - started Sep 30, 2024 12:00 AM, must end by Oct 5, 2024 12:00 AM
@@ -14,20 +15,47 @@ Concepts
 For this project, we expect you to look at these concepts:
 
 JavaScript programming
-Software Linter
+Software Linter: Software Linter
+Definition
+A software linter also known as a “linter” is a tool used to identify and report potential issues (syntax errors, undeclared variables, etc.) in a program. It can even report convention or style inconsistencies. It does so by highlighting them so that the programmer is aware, so changes can be made. There are a wide variety of linters as well as lint rules for specific programming languages and even for software frameworks.
+
+There are typically two ways to lint code:
+
+Actively
+Passively
+Active
+Active checking is typically achieved by running a monitor tool that is constantly checking the file that your working on in order to spot inconsistencies and possible errors (e.g., having a specific linter along with some lint rules installed as a plug-in in your Code Editor).
+
+Passive
+Passive checking is done by taking a piece of code, and manually running it through a tool to identify potential issues. For example, copying and pasting your code into a specific linter tool, or running the linter against a specific file using the command line. This tool can be installed locally or be available as a service (e.g., website on the Internet).
+
+Examples
+Screenshot of an active linter pycodestyle (Python) integrated into Visual Studio Code 
+
+Screenshot of an active linter ESLint (JavaScript) integrated into Visual Studio Code 
+
+Screenshot of a passive online linter service JSON Formatter to validate a JSON data structure 
+
+Fun fact: The term “lint” was derived from the name of the tiny bits of fiber and fluff shed by clothing.
+
+References
+lint (software) - Wikipedia: https://en.wikipedia.org/wiki/Lint_(software)
+ESLint - Pluggable JavaScript linter: https://eslint.org/
+pycodestyle - documentation: https://pycodestyle.pycqa.org/en/latest/
+
 
 
 Resources
 Read or watch:
 
-ECMAScript 6 - ECMAScript 2015
-Statements and declarations
-Arrow functions
-Default parameters
-Rest parameter
-Javascript ES6 — Iterables and Iterators
+ECMAScript 6 - ECMAScript 2015: https://www.w3schools.com/js/js_es6.asp
+Statements and declarations: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements
+Arrow functions: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+Default parameters: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters
+Rest parameter: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters
+Javascript ES6 — Iterables and Iterators: https://towardsdatascience.com/javascript-es6-iterables-and-iterators-de18b54f4d4
 Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+At the end of this project, you are expected to be able to explain to anyone: https://fs.blog/feynman-learning-technique/, without the help of Google:
 
 What ES6 is
 New features introduced in ES6
@@ -45,8 +73,8 @@ Allowed editors: vi, vim, emacs, Visual Studio Code
 All your files should end with a new line
 A README.md file, at the root of the folder of the project, is mandatory
 Your code should use the js extension
-Your code will be tested using the Jest Testing Framework
-Your code will be analyzed using the linter ESLint along with specific rules that we’ll provide
+Your code will be tested using the Jest Testing Framework: https://jestjs.io/
+Your code will be analyzed using the linter ESLint: https://eslint.org/ along with specific rules that we’ll provide
 All of your functions must be exported
 Setup
 Install NodeJS 12.11.x
